@@ -1,0 +1,50 @@
+.Subabout{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.aboutImage{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.aboutInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text{
+    width: 70%;
+}
+.aboutInfo h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.aboutSkills{
+    width: 50%;
+    padding: 2rem;
+    margin-left: 12em;
+}
+
+.skills{
+    width: 100%;
+    height: 3rem;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    padding: 0.3rem;
+    margin: 1rem 0;
+    border-bottom: 0.5rem solid rgb(69,156,175);
+}
